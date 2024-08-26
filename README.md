@@ -17,6 +17,10 @@
 <div align=center >
 
   [![PDF](https://img.shields.io/badge/PDF-F05A7E?style=for-the-badge)](https://github.com/S5-2024/lista-01-udwmj-2024/blob/main/assets/lista_exercicio_I-2%5B1%5D.pdf)
+  [![Código js](https://img.shields.io/badge/Código_js-D1E9F6?style=for-the-badge&logo=github&logoColor=FF8A8A)](https://github.com/S5-2024/lista-01-udwmj-2024/tree/main/JS)
+   [![código php](https://img.shields.io/badge/código_php-FF9EAA?style=for-the-badge&logo=github&logoColor=3AA6B9)](https://github.com/S5-2024/lista-01-udwmj-2024/blob/main/PHP/index.php)
+
+
   
 </div> 
 
