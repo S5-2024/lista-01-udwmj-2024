@@ -127,4 +127,4 @@ O `else` faz a mesma coisa, mas ao contrário.
 
 <div align=center> 
 
-<img src="#"> </div>
+<img src="https://github.com/S5-2024/lista-01-udwmj-2024/blob/main/assets/banners.gif"> </div>
