@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site do PHP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP por dentro</title>
 </head>
 <body>
-
-  <?php 
- echo "<p>Data e Hora Atual: " . date('d/m/Y H:i:s') . "</p>";
-  ?>
-  
+    <h1> Data e Hora no PHP</h1>
+    <?php 
+    date_default_timezone_set("America/Sao_Paulo");  //GMT-3
+    echo "Hoje é dia " . date("D/M/Y");
+    echo "e a hora atual é: " . date("G:i:s ");
+    ?>
 </body>
 </html>
