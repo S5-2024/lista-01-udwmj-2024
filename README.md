@@ -7,13 +7,22 @@
 [![Vinicius Godinho ](https://img.shields.io/badge/Vinicius_Godinho_-black?style=for-the-badge&logo=github)](https://github.com/ViniciusMGodinho)
 [![Gabriel Evaristo](https://img.shields.io/badge/Gabriel_Evaristo-black?style=for-the-badge&logo=github)](https://github.com/gabsevamac)
 
-<h4 align="center"> <em> Professor responsável: Daniel Paiva </em></h4>
 
-[![PDF](https://img.shields.io/badge/PDF-F05A7E?style=for-the-badge)](https://github.com/S5-2024/lista-01-udwmj-2024/blob/main/assets/lista_exercicio_I-2%5B1%5D.pdf)
 
 
 
 ## 📌 Sobre
+<h4 align="center"> <em> Professor responsável: Daniel Paiva </em></h4>
+
+<div align=center >
+
+  [![PDF](https://img.shields.io/badge/PDF-F05A7E?style=for-the-badge)](https://github.com/S5-2024/lista-01-udwmj-2024/blob/main/assets/lista_exercicio_I-2%5B1%5D.pdf)
+  
+</div> 
+
+ 
+
+
 
 <p>
   Este repositório contém a resolução da lista 1 passada na aula de Usabilidade realizada em 16/08 (Sexta-Feira).
@@ -163,10 +172,19 @@ O `else` faz a mesma coisa, mas ao contrário.
 
 O `date_default_timezone_set("America/Sao_Paulo");`  está setando o local que deverá usar como base para exibir a data e a hora.
 E o `echo "Hoje é dia " . date("d/M/Y");` printa na tela da web page o dia, e o próximo echo exibe o horário atual. 
+
 Vale lembrar que esse script está dentro de uma estrutura em HTML
 
 
 </p>
+
+<div align=center>
+  ────୨ৎ────
+
+  <h3> 🌟 Obrigada pela atenção! 🌟</h3>
+
+</div>
+
 
 
 <div align=center width=100% height=100%> 
