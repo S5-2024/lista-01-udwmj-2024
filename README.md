@@ -122,3 +122,9 @@ Aqui estão as seleções de elementos do HTML com os IDs:
 Aqui faz um condicionamento, se o `body` estiver no `darkmode` irá esconder a imagem exibida no modo claro adicionando a classe `hidden` a imagem com: `imageLight.classList.add('hidden');`, e exibirá a imagem que deve ser exibida no darkmode com: ` imageDark.classList.remove('hidden');`  removendo a característica `hidden`. 
 O `else` faz a mesma coisa, mas ao contrário. 
 </p>
+
+
+
+<div align=center> 
+
+<img src="#"> </div>
