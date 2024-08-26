@@ -55,3 +55,76 @@ atualidade.
 
  <h2> 🩻 Montando os códigos </h2>
  
+<h3> Código JavaScript</h3>
+
+[![Código js](https://img.shields.io/badge/Código_js-D1E9F6?style=for-the-badge&logo=github&logoColor=FF8A8A)](https://github.com/S5-2024/lista-01-udwmj-2024/tree/main/JS)
+
+ <h4> Uma breve explicação do web site e do código: </h4>
+
+ <p>
+   A ideia deste script é mudar a tela do site de dark mode para light mode, e junto a isso aparecerá um gatinho dormindo e dançando, respectivamente. 
+ </p> <br>
+ 
+
+```javascript
+ document.addEventListener('DOMContentLoaded', () => {});
+
+``` 
+ <p> 
+   
+Esse método "escuta" o que está acontecendo na sua Web page, e quando um determinado evento é disparado, ele executará a função que foi associada. No caso aqui, o evento  `` DOMContentLoaded `` é acionado quando todo o HTML foi completamente carregado e analisado. Isso garante que o código dentro da função só seja executado após o carregamento completo da estrutura HTML da página.
+ </p>
+
+<br> 
+
+```javascript
+ document.addEventListener('DOMContentLoaded', () => {
+  const button = document.getElementById('toggleButton');
+  const imageLight = document.getElementById('toggleImage');
+  const imageDark = document.getElementById('toggleImageDark');
+});
+```
+
+<p> 
+  
+Aqui estão as seleções de elementos do HTML com os IDs:
+  * Seleciona o elemento com a ID `toggleButton`  e armazena na constante `button`. Este elemento será o botão que o usuário clicará para alternar entre os modos.
+  * Seleciona o elemento HTML com o ID `toggleImage` e o armazena na constante `imageLight`. Este é o elemento da imagem que deve ser exibido no modo claro.
+  * Seleciona o elemento HTML com o ID `toggleImageDark` e o armazena na constante `imageDark`. Este é o elemento da imagem que deve ser exibido no modo escuro.
+</p>
+
+<br> 
+
+```javascript
+ button.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        document.body.classList.toggle('light-mode');
+```
+<p>
+
+`button.addEventListener('click', () =>` Está escutando quando o `button` foi clicado, e irá executar:
+* `document.body.classList.toggle('dark-mode');` Altera a classe `dark-mode`, ou seja, se ela estiver rpesente ela será removida, se não estiver disponível será adicionada. O mesmo vale para o `document.body.classList.toggle('light-mode');`
+</p>
+<br>
+
+```javascript
+   if (document.body.classList.contains('dark-mode')) {
+          imageLight.classList.add('hidden');
+          imageDark.classList.remove('hidden');
+      } else {
+          imageLight.classList.remove('hidden');
+          imageDark.classList.add('hidden');
+      }
+```
+
+<p>
+
+Aqui faz um condicionamento, se o `body` estiver no `darkmode` irá esconder a imagem exibida no modo claro adicionando a classe `hidden` a imagem com: `imageLight.classList.add('hidden');`, e exibirá a imagem que deve ser exibida no darkmode com: ` imageDark.classList.remove('hidden');`  removendo a característica `hidden`. 
+O `else` faz a mesma coisa, mas ao contrário. 
+</p>
+
+
+
+<div align=center> 
+
+<img src="#"> </div>
