@@ -21,11 +21,14 @@
  </p>
 
 
-##  🤓 Atividade 
+## 📄 Atividade 
 
 <h3> Explique as vantagens de se utilizar a linguagem de programação JavaScript na
 na atualidade.
  </h3>
+
+<details>
+  <summary> <h4> ☝️🤓 Resposta</h4> </summary>
 
 <p> JavaScript é uma linguagem de programação que fornece implementações de itens complexos em páginas web. As vantagens de utilizar JS na atualidade se deve em alguns pontos: 
  </p>
@@ -37,9 +40,19 @@ na atualidade.
 * Carga do servidor: Diminui a demanda nos servidores em geral, por ser executado do lado do client. Portanto, aplicações simples podem, inclusive, não precisar de um servidor.
 * Interfaces ricas:  O JS pode ser usado para criar recursos que melhoram muito a interface do usuário e a experiência de um site.
   
+</details>
+
+
+
+  
  <h3>Explique as vantagens de se utilizar a linguagem de programação PHP na
 atualidade.
  </h3>
+
+
+ 
+<details>
+  <summary> <h4>☝️🤓 Resposta</h4> </summary>
 
 <p>PHP é uma linguagem de programação server side, voltada para o desenvolvimento de aplicações web e criação de site, e também favorece a conexão entre a interface do usuário e o servidor. Existem algumas vantagens de utilizar esta linguagem: </p>
 
@@ -51,7 +64,7 @@ atualidade.
 * Multiplataforma:  O PHP pode operar em vários sistemas como Windows, Linux, Mac OS, entre outros.
 * Compatibilidade:  É compatível com diversos bancos de dados, dando dinamismo para carregar os elementos da página sem falhas e com agilidade.  Sem falar que alguns bancos de dados optam também pelo PHP, como, por exemplo: MySQL, Oracle, SQLite, Interbase, Sybase, entre outros.
 * Grande comunidade e Suporte: PHP possui uma vasta comunidade de desenvolvedores ao redor do mundo, ou seja, há uma abundância de recursos, tutoriais e bibliotecas disponíveis.
-
+</details>
 
  <h2> 🩻 Montando os códigos </h2>
  
@@ -102,7 +115,7 @@ Aqui estão as seleções de elementos do HTML com os IDs:
 ```
 <p>
 
-`button.addEventListener('click', () =>` Está escutando quando o `button` foi clicado, e irá executar:
+O `button.addEventListener('click', () =>` está escutando quando o `button` foi clicado, e irá executar:
 * `document.body.classList.toggle('dark-mode');` Altera a classe `dark-mode`, ou seja, se ela estiver rpesente ela será removida, se não estiver disponível será adicionada. O mesmo vale para o `document.body.classList.toggle('light-mode');`
 </p>
 <br>
@@ -119,10 +132,41 @@ Aqui estão as seleções de elementos do HTML com os IDs:
 
 <p>
 
-Aqui faz um condicionamento, se o `body` estiver no `darkmode` irá esconder a imagem exibida no modo claro adicionando a classe `hidden` a imagem com: `imageLight.classList.add('hidden');`, e exibirá a imagem que deve ser exibida no darkmode com: ` imageDark.classList.remove('hidden');`  removendo a característica `hidden`. 
+Aqui faz um condicionamento, se o `body` estiver no `darkmode` irá esconder a imagem exibida no modo claro adicionando a classe `hidden` a imagem com: `imageLight.classList.add('hidden');`, e exibirá a imagem que deve ser exibida no darkmode com: 
+`imageDark.classList.remove('hidden');`  removendo a característica `hidden`. 
 O `else` faz a mesma coisa, mas ao contrário. 
 </p>
 
+---
+
+<h3> Código PHP</h3>
+
+ [![código php](https://img.shields.io/badge/código_php-FF9EAA?style=for-the-badge&logo=github&logoColor=3AA6B9)](https://github.com/S5-2024/lista-01-udwmj-2024/blob/main/PHP/index.php)
+ 
+ <h4> Uma breve do código: </h4>
+
+
+ <p>
+   A ideia deste script é apenas exibir a data e a hora atual. 
+ </p> <br>
+
+
+```php
+  <?php 
+    date_default_timezone_set("America/Sao_Paulo");  //GMT-3
+    echo "Hoje é dia " . date("d/M/Y");
+    echo " e a hora atual é: " . date("G:i");
+    ?>
+```
+
+<p> 
+
+O `date_default_timezone_set("America/Sao_Paulo");`  está setando o local que deverá usar como base para exibir a data e a hora.
+E o `echo "Hoje é dia " . date("d/M/Y");` printa na tela da web page o dia, e o próximo echo exibe o horário atual. 
+Vale lembrar que esse script está dentro de uma estrutura em HTML
+
+
+</p>
 
 
 <div align=center width=100% height=100%> 
